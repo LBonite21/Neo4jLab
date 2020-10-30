@@ -7,7 +7,7 @@ namespace Neo4jLab
     {
         public static void Main(string[] args)
         {
-            var client = new GraphClient(new Uri("http://localhost:7474/db/products", "neo4j", "Spidey21"));
+            var client = new GraphClient(new Uri("http://localhost:7474/db/products", "neo4j", "Neo"));
         }
 
         public static int RequestInt(string message)
